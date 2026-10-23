@@ -1,0 +1,456 @@
+/*Celular*/
+@media (max-width: 475px) {
+    body {
+        background-color: white;
+    }
+
+    #div1 img {
+        display: none;
+    }
+
+    #div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        color: #245747;
+    }
+
+    #div2 img {
+        display: block;
+        border-radius: 20px;
+    }
+
+    /* Estilo do footer */
+    footer {
+
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #245747;
+        background-color: #f0fff0;
+        padding: 10px;
+    }
+
+    /* Estilo do botão de visita */
+    .botao-visita {
+        background-color: #285B48;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px 22px;
+        border: none;
+        border-radius: 12px;
+        width: 400px;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .botao-visita:hover {
+        background-color: #1E4537;
+    }
+
+    /* Estilo do cabeçalho */
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+        color: #245747;
+        background-color: #f0fff0;
+
+    }
+
+    .cabecalho h1 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .cabecalho nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cabecalho nav a {
+        text-decoration: none;
+        color: #245747;
+        font-size: 14px;
+    }
+
+    .cabecalho nav .botao {
+        border-bottom: 3px solid #245747;
+        padding-bottom: 5px;
+    }
+
+    /* Estilo do conteúdo */
+    #conteudo {
+        padding: 8px 34px;
+        color:#245747;
+    }
+
+    #conteudo h2 {
+        font-size: 28px;
+        margin: 0 0 12px;
+    }
+
+    #conteudo>p {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+
+    /* Estilo dos cartões */
+    #cartoes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #245747;
+
+    }
+
+    #cartao {
+        background-color: #edf0e7;
+        padding: 12px 15px;
+        border-radius: 12px;
+    }
+
+    #cartao h3 {
+        font-size: 20px;
+        margin: 0 0 12px;
+    }
+
+    #cartao p {
+        font-size: 16px;
+        margin: 0 0 12px;
+    }
+
+    /* Link para voltar */
+    .botao-voltar {
+        display: inline-block;
+        margin-top: 26px;
+        color: #214f43;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+
+        border: none;
+        outline: none;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .botao-voltar:hover {
+        text-decoration: underline;
+    }
+
+
+}
+
+/*Tablet*/
+@media (max-width: 1279px) and (min-width: 476px) {
+    body {
+        background-color: white;
+    }
+
+    #div1 img {
+        display: none;
+    }
+
+    #div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 30px;
+        color: #245747;
+    }
+
+    #div2 img {
+        display: block;
+        border-radius: 20px;
+    }
+
+    /* Estilo do botão de visita */
+    .botao-visita {
+        background-color: #285B48;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 13px 22px;
+        border: none;
+        border-radius: 12px;
+        width: 500px;
+        text-align: left;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .botao-visita:hover {
+        background-color: #1E4537;
+    }
+
+    /* Estilo do footer */
+    footer {
+
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #245747;
+        background-color: #f0fff0;
+        padding: 10px;
+    }
+
+    /* Estilo do cabeçalho */
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+        color: #245747;
+        background-color: #f0fff0;
+
+    }
+
+    .cabecalho h1 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .cabecalho nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cabecalho nav a {
+        text-decoration: none;
+        color: #245747;
+        font-size: 20px;
+    }
+
+    .cabecalho nav .botao {
+        border-bottom: 3px solid #245747;
+        padding-bottom: 5px;
+    }
+
+    /* Estilo do conteúdo */
+    #conteudo {
+        padding: 8px 34px;
+        color:#245747;
+    }
+
+    #conteudo h2 {
+        font-size: 28px;
+        margin: 0 0 12px;
+    }
+
+    #conteudo>p {
+        font-size: 18px;
+        margin-bottom: 36px;
+    }
+
+
+    /* Estilo dos cartões */
+    #cartoes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        color: #245747;
+
+    }
+
+    #cartao {
+        background-color: #edf0e7;
+        padding: 12px 15px;
+        border-radius: 12px;
+    }
+
+    #cartao h3 {
+        font-size: 20px;
+        margin: 0 0 12px;
+    }
+
+    #cartao p {
+        font-size: 16px;
+        margin: 0 0 12px;
+    }
+
+    /* Link para voltar */
+    .botao-voltar {
+        display: inline-block;
+        margin-top: 26px;
+        color: #214f43;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+
+        border: none;
+        outline: none;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .botao-voltar:hover {
+        text-decoration: underline;
+    }
+
+
+}
+
+/*Desktop*/
+@media (min-width: 1280px) {
+    body {
+        background-color: white;
+    }
+
+    #div1 img {
+        display: block;
+        margin-left: 200px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    #div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: #245747;
+    }
+
+    #div2 img {
+        display: none;
+
+    }
+
+    /* Estilo do footer */
+    footer {
+
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #245747;
+        background-color: #f0fff0;
+        padding: 10px;
+    }
+
+    section {
+        display: flex;
+    }
+
+    /* Estilo do botão de visita */
+    .botao-visita {
+        background-color: #285B48;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 13px 22px;
+        border: none;
+        border-radius: 12px;
+        width: 331px;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .botao-visita:hover {
+        background-color: #1E4537;
+    }
+
+    /* Estilo do cabeçalho */
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+        color: #245747;
+        background-color: #f0fff0;
+    }
+
+    .cabecalho h1 {
+        margin: 0;
+        font-size: 32px;
+        width: 200px;
+    }
+
+    .cabecalho nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cabecalho nav a {
+        text-decoration: none;
+        color: #245747;
+        font-size: 20px;
+    }
+
+    .cabecalho nav .botao {
+        border-bottom: 3px solid #245747;
+        padding-bottom: 5px;
+    }
+
+    /* Estilo do conteúdo */
+    #conteudo {
+        padding: 8px 34px;
+        color:#245747;
+    }
+
+    #conteudo h2 {
+        font-size: 32px;
+        margin: 0 0 12px;
+    }
+
+    #conteudo>p {
+        font-size: 18px;
+        margin-bottom: 36px;
+    }
+
+
+    /* Estilo dos cartões */
+    #cartoes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+    }
+
+    #cartao {
+        background-color: #edf0e7;
+        padding: 12px 15px;
+        border-radius: 12px;
+    }
+
+    #cartao h3 {
+        font-size: 20px;
+        margin: 0 0 12px;
+    }
+
+    #cartao p {
+        font-size: 16px;
+        margin: 0 0 12px;
+    }
+
+    /* Link para voltar */
+    .botao-voltar {
+        display: inline-block;
+        margin-top: 26px;
+        color: #214f43;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+
+        border: none;
+        outline: none;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .botao-voltar:hover {
+        text-decoration: underline;
+    }
+
+
+}
